@@ -33,3 +33,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Run Clippy
+        run: cargo clippy --all-targets --all-features
